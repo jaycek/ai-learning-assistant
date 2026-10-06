@@ -7,6 +7,7 @@ from ui import ask_tab, flashcards_tab, notes_tab, progress_tab, quiz_tab, topic
 
 st.set_page_config(page_title="Learning Assistant", page_icon="🎓", layout="wide")
 
+st.title("My Learning Assistant")
 ss = st.session_state
 ss.setdefault("docs", {})            # doc_id -> {name, pages, chunks}
 ss.setdefault("tracker", Tracker())  # in-memory progress (no database)
