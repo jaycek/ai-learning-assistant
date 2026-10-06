@@ -1,0 +1,8 @@
+streamlit>=1.40
+ollama>=0.4
+chromadb>=0.5
+sentence-transformers>=3.0
+pypdf>=4.0
+faster-whisper>=1.0
+av<19
+pydantic>=2.5
